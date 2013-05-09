@@ -23,6 +23,10 @@ public class Puzzle {
    * @return                   ArrayList sans 3's
    */
   private ArrayList<String> nick(ArrayList<String> input) {
+	for(int i=0; i<input.size; i++)
+		{
+			input.get(i).replace("3", "");
+		}
     
   }
   
